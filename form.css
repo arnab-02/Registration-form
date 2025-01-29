@@ -1,0 +1,19 @@
+.body{
+    text-align: center;
+    border: solid black 2px;
+}
+button{
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #ff1c1c;
+    transition: .20s;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: #ff1c1c;
+    box-shadow: black;
+    border-style: ridge;
+}

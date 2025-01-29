@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="body">
+      <h1>Registe now</h1>
+      <div>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" required>
+        <br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br />
+      <div>
+        <label for="subject">Subject :</label>
+        <select name="subject" id="subject" aria-placeholder="select">
+          <option value="others">Others</option>
+          <option value="arts">Arts</option>
+          <option value="comarce">Comarce</option>
+          <option value="science">Science</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label><b>Gender :</b></label>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male">Male </label>
+        <label for="female">
+          <input type="radio" id="female" name="gender" value="female">Female
+        </label>
+        <label for="custom">
+          <input type="radio" id="custom" name="gender" value="custom">Custom
+        </label>
+      </div>
+      <br>
+      <div>
+      <label><b>Interested :</b></label>
+        <input type="checkbox" id="coding" name="Interested">
+        <label for="coding">Coding</label>
+        <br>
+        <input type="checkbox" id="web design" name="Interested">
+        <label for="web design">Web Design</label>
+        <br>
+        <input type="checkbox" id="stock market" name="Interested">
+        <label for="stock market">Stock Market</label>
+      </div>
+      <textarea name="massage" id="massage"></textarea>
+      <br>
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" name="file">
+      <br>
+      <br>
+      <div>  
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
